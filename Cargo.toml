@@ -1,0 +1,10 @@
+[package]
+name = "icedragon-api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.89"
+chrono = "0.4.38"
+holidays = { git = "https://github.com/mapbox-jp/holidays-rs.git", version = "0.1.0" }
+rocket = {version="0.5.1",features=["json"]}
